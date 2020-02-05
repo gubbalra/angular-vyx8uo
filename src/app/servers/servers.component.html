@@ -6,3 +6,4 @@
         class="btn btn-primary"
         (click)="onServerCreation()">Add Server</button>
 <div class="alert alert-success fading">{{serverStatus}} </div>
+<app-server *ngFor="let server of servers"></app-server>
